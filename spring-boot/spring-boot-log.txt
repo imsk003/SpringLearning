@@ -1,0 +1,350 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:24:19.956  INFO 7332 --- [           main] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 7332 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:24:20.074  INFO 7332 --- [           main] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:24:35.923  INFO 7332 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:24:36.236  INFO 7332 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:24:36.239  INFO 7332 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:24:36.376  INFO 7332 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:24:38.634  INFO 7332 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:24:38.647  INFO 7332 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 17894 ms
+2019-01-21 03:24:41.339  INFO 7332 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:24:43.309  INFO 7332 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:24:43.402  INFO 7332 --- [           main] sk.learning.springboot.Application       : Started Application in 29.144 seconds (JVM running for 33.532)
+2019-01-21 03:25:06.605  INFO 7332 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:25:06.606  INFO 7332 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:25:06.660  INFO 7332 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 53 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:30:56.724  INFO 956 --- [           main] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 956 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:30:56.805  INFO 956 --- [           main] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:31:14.872  INFO 956 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:31:15.536  INFO 956 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:31:15.538  INFO 956 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:31:15.602  INFO 956 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:31:16.369  INFO 956 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:31:16.371  INFO 956 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 19115 ms
+2019-01-21 03:31:25.207  INFO 956 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:31:31.278  INFO 956 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:31:32.210  INFO 956 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:31:32.228  INFO 956 --- [           main] sk.learning.springboot.Application       : Started Application in 41.627 seconds (JVM running for 45.913)
+2019-01-21 03:31:36.455  INFO 956 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:31:36.457  INFO 956 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:31:36.521  INFO 956 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 64 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:37:12.120  INFO 7084 --- [           main] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 7084 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:37:12.129  INFO 7084 --- [           main] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:37:24.829  INFO 7084 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:37:25.002  INFO 7084 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:37:25.002  INFO 7084 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:37:25.057  INFO 7084 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:37:25.633  INFO 7084 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:37:25.635  INFO 7084 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13103 ms
+2019-01-21 03:37:31.000  INFO 7084 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:37:32.543  INFO 7084 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:37:33.012  INFO 7084 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:37:33.033  INFO 7084 --- [           main] sk.learning.springboot.Application       : Started Application in 24.749 seconds (JVM running for 29.261)
+2019-01-21 03:37:35.902  INFO 7084 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:37:35.903  INFO 7084 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:37:35.988  INFO 7084 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 84 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:38:42.420  INFO 4352 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 4352 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:38:42.434  INFO 4352 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:38:43.008  INFO 4352 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 03:38:43.009  INFO 4352 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 03:38:58.032  INFO 4352 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:38:58.338  INFO 4352 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:38:58.339  INFO 4352 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:38:58.634  INFO 4352 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:39:01.091  INFO 4352 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:39:01.091  INFO 4352 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 18081 ms
+2019-01-21 03:39:07.016  INFO 4352 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:39:09.626  INFO 4352 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 03:39:09.690  INFO 4352 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:39:11.498  INFO 4352 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:39:11.516  INFO 4352 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 32.413 seconds (JVM running for 35.056)
+2019-01-21 03:39:13.426  INFO 4352 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:39:13.427  INFO 4352 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:39:13.456  INFO 4352 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:44:42.280  INFO 7944 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 7944 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:44:42.299  INFO 7944 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:44:42.746  INFO 7944 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 03:44:42.747  INFO 7944 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 03:44:53.627  INFO 7944 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:44:53.799  INFO 7944 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:44:53.800  INFO 7944 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:44:53.878  INFO 7944 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:44:54.879  INFO 7944 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:44:54.880  INFO 7944 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 12132 ms
+2019-01-21 03:45:00.606  INFO 7944 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:45:02.354  INFO 7944 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 03:45:02.391  INFO 7944 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:45:02.850  INFO 7944 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:45:02.869  INFO 7944 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 24.382 seconds (JVM running for 30.399)
+2019-01-21 03:45:05.345  INFO 7944 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:45:05.346  INFO 7944 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:45:05.389  INFO 7944 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:48:32.438  INFO 5840 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 5840 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:48:32.546  INFO 5840 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:48:33.140  INFO 5840 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 03:48:33.141  INFO 5840 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 03:48:46.213  INFO 5840 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:48:46.464  INFO 5840 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:48:46.466  INFO 5840 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:48:46.555  INFO 5840 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:48:48.349  INFO 5840 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:48:48.350  INFO 5840 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15207 ms
+2019-01-21 03:48:51.397  INFO 5840 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:48:53.603  INFO 5840 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 03:48:53.643  INFO 5840 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:48:54.141  INFO 5840 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:48:54.169  INFO 5840 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 24.4 seconds (JVM running for 27.756)
+2019-01-21 03:48:57.792  INFO 5840 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:48:57.793  INFO 5840 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:48:57.837  INFO 5840 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 30 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 03:59:32.447  INFO 956 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 956 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 03:59:32.458  INFO 956 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 03:59:33.061  INFO 956 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 03:59:33.061  INFO 956 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 03:59:45.455  INFO 956 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 03:59:45.670  INFO 956 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 03:59:45.671  INFO 956 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 03:59:45.718  INFO 956 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 03:59:46.650  INFO 956 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 03:59:46.651  INFO 956 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13589 ms
+2019-01-21 03:59:49.575  INFO 956 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 03:59:51.725  INFO 956 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 03:59:51.771  INFO 956 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 03:59:52.225  INFO 956 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 03:59:52.246  INFO 956 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 22.918 seconds (JVM running for 36.217)
+2019-01-21 03:59:56.149  INFO 956 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 03:59:56.150  INFO 956 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 03:59:56.181  INFO 956 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:04:43.468  INFO 5772 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 5772 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:04:43.480  INFO 5772 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:04:44.700  INFO 5772 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:04:44.700  INFO 5772 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:04:57.072  INFO 5772 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:04:57.332  INFO 5772 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:04:57.334  INFO 5772 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:04:57.483  INFO 5772 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:04:58.929  INFO 5772 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:04:58.929  INFO 5772 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14229 ms
+2019-01-21 04:05:01.919  INFO 5772 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:05:07.589  INFO 5772 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:05:07.628  INFO 5772 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:05:08.179  INFO 5772 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:05:08.200  INFO 5772 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 28.741 seconds (JVM running for 36.946)
+2019-01-21 04:05:14.089  INFO 5772 --- [(2)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:05:14.090  INFO 5772 --- [(2)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:05:14.119  INFO 5772 --- [(2)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:11:00.541  INFO 7780 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 7780 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:11:00.553  INFO 7780 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:11:01.003  INFO 7780 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:11:01.005  INFO 7780 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:11:13.631  INFO 7780 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:11:13.862  INFO 7780 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:11:13.864  INFO 7780 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:11:13.930  INFO 7780 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:11:14.611  INFO 7780 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:11:14.613  INFO 7780 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13606 ms
+2019-01-21 04:11:20.947  INFO 7780 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:11:23.998  INFO 7780 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:11:24.051  INFO 7780 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:11:24.749  INFO 7780 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:11:24.842  INFO 7780 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 33.556 seconds (JVM running for 37.404)
+2019-01-21 04:11:25.492  INFO 7780 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:11:25.493  INFO 7780 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:11:25.606  INFO 7780 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 109 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:13:35.507  INFO 2944 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 2944 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:13:35.551  INFO 2944 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:13:37.858  INFO 2944 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:13:37.859  INFO 2944 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:14:01.184  INFO 2944 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:14:01.441  INFO 2944 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:14:01.444  INFO 2944 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:14:01.562  INFO 2944 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:14:02.300  INFO 2944 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:14:02.300  INFO 2944 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 24440 ms
+2019-01-21 04:14:08.018  INFO 2944 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:14:12.218  INFO 2944 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:14:12.279  INFO 2944 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:14:13.154  INFO 2944 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:14:13.178  INFO 2944 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 45.944 seconds (JVM running for 54.757)
+2019-01-21 04:14:13.694  INFO 2944 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:14:13.694  INFO 2944 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:14:13.770  INFO 2944 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 74 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:15:57.973  INFO 5312 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 5312 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:15:58.031  INFO 5312 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:15:58.464  INFO 5312 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:15:58.465  INFO 5312 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:16:11.228  INFO 5312 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:16:11.506  INFO 5312 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:16:11.506  INFO 5312 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:16:11.564  INFO 5312 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:16:13.036  INFO 5312 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:16:13.037  INFO 5312 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14571 ms
+2019-01-21 04:16:18.565  INFO 5312 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:16:20.879  INFO 5312 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:16:20.917  INFO 5312 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:16:21.894  INFO 5312 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:16:21.908  INFO 5312 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 27.287 seconds (JVM running for 30.26)
+2019-01-21 04:16:24.117  INFO 5312 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:16:24.117  INFO 5312 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:16:24.157  INFO 5312 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:18:24.339  INFO 2736 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 2736 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:18:24.349  INFO 2736 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:18:25.080  INFO 2736 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:18:25.081  INFO 2736 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:18:38.859  INFO 2736 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:18:39.417  INFO 2736 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:18:39.418  INFO 2736 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:18:39.482  INFO 2736 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:18:40.098  INFO 2736 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:18:40.101  INFO 2736 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15018 ms
+2019-01-21 04:18:44.822  INFO 2736 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:18:49.461  INFO 2736 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:18:49.520  INFO 2736 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:18:52.451  INFO 2736 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:18:52.452  INFO 2736 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:18:53.022  INFO 2736 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 570 ms
+2019-01-21 04:18:53.897  INFO 2736 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:18:53.920  INFO 2736 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 32.516 seconds (JVM running for 36.486)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.2.RELEASE)
+
+2019-01-21 04:23:33.354  INFO 5100 --- [  restartedMain] sk.learning.springboot.Application       : Starting Application on SK-PC with PID 5100 (C:\Users\SK\eclipse-workspace\spring-boot\target\classes started by SK in C:\Users\SK\eclipse-workspace\spring-boot)
+2019-01-21 04:23:33.366  INFO 5100 --- [  restartedMain] sk.learning.springboot.Application       : No active profile set, falling back to default profiles: default
+2019-01-21 04:23:34.014  INFO 5100 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-21 04:23:34.014  INFO 5100 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-21 04:23:46.817  INFO 5100 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-21 04:23:47.258  INFO 5100 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-21 04:23:47.259  INFO 5100 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-01-21 04:23:47.329  INFO 5100 --- [  restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\PuTTY\;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\SK\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\SK\AppData\Local\Programs\Python\Python37\;C:\Users\SK\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019-01-21 04:23:48.207  INFO 5100 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-21 04:23:48.207  INFO 5100 --- [  restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14192 ms
+2019-01-21 04:23:53.223  INFO 5100 --- [  restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-21 04:23:54.953  INFO 5100 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-01-21 04:23:54.987  INFO 5100 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-01-21 04:23:55.462  INFO 5100 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-21 04:23:55.483  INFO 5100 --- [  restartedMain] sk.learning.springboot.Application       : Started Application in 25.758 seconds (JVM running for 28.326)
+2019-01-21 04:23:59.727  INFO 5100 --- [(1)-192.168.0.4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-21 04:23:59.835  INFO 5100 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-21 04:24:00.012  INFO 5100 --- [(1)-192.168.0.4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 175 ms
